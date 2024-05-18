@@ -12,6 +12,7 @@ const Navbar = () => {
         <Link to='/'  className='navlink'>HOME</Link> 
         <Link to='/cart' className='navlink'>CART</Link>
         <span className='cartCount'>CART ITMES : {items.length}</span>
+        
       </div>
     </div>
   )
